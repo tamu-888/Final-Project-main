@@ -23,14 +23,16 @@
       color: #42446e;
     }
     .input-side {
+      max-width: 600px;
+      width: 100%;
       display: flex;
       justify-content: space-between;
       align-items: center;
 
       .number-input {
-        // max-width: 449px;
-        // width: 100%;
-        width: 449px;
+        max-width: 449px;
+        width: 100%;
+        // width: 449px;
         min-height: 64px;
         padding-left: 35px;
         border: none;
